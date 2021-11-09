@@ -1,0 +1,41 @@
+repositories:
+  foonathan/memory:
+    type: git
+    url: https://github.com/foonathan/memory.git
+    version: main
+  bond_core:
+    type: git
+    url: https://github.com/ros/bond_core.git
+    version: ros2
+  BehaviorTree/BehaviorTree.CPP:
+    type: git
+    url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+    version: ros2-version-2.x
+  angles:
+    type: git
+    url: https://github.com/ros/angles.git
+    version: ros2
+  ompl:
+    type: git
+    url: https://github.com/ompl/ompl.git
+    version: main
+  ros-planning/navigation2:
+    type: git
+    url: https://github.com/ros-planning/navigation2.git
+    version: galactic
+  ros-perception/image_common:
+    type: git
+    url: https://github.com/ros-perception/image_common.git
+    version: galactic
+  ros-perception/vision_opencv:
+    type: git
+    url: https://github.com/ros-perception/vision_opencv.git
+    version: ros2
+  ros-simulation/gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: galactic
+  async_web_server_cpp:
+    type: git
+    url: https://github.com/apiyap/async_web_server_cpp.git
+    version: ros2-releases
