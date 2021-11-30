@@ -36,4 +36,23 @@ Summary: 383 packages finished [31min 27s]
 MAKEFLAGS=-j1
 colcon build --symlink-install --packages-select ros1_bridge --cmake-force-configure
 
+Summary: 1 package finished [36min 10s]
+
 </pre>
+
+# ROS1 terminal
+
+<pre>
+. ~/ros_noetic/install_isolated/setup.bash
+export ROS_MASTER_URI=http://localhost:11311
+roscore
+</pre>
+
+# ROS2 terminal
+<pre>
+. ~/ros_noetic/install_isolated/setup.bash
+. ~/ros2_galactic/install/setup.bash
+export ROS_MASTER_URI=http://localhost:11311
+ros2 run ros1_bridge dynamic_bridge
+</pre>
+
