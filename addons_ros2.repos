@@ -55,3 +55,7 @@ repositories:
     type: git
     url: https://github.com/apiyap/cartographer_ros.git
     version: galactic
+  ros2_rviz_plugins:
+    type: git
+    url: git@github.com:apiyap/ros2_rviz_plugins.git
+    version: galactic
