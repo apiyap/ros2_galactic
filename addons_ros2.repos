@@ -51,6 +51,10 @@ repositories:
     type: git
     url: https://github.com/ros-perception/pointcloud_to_laserscan.git
     version: galactic
+  ros-perception/laser_geometry:
+    type: git
+    url: https://github.com/ros-perception/laser_geometry.git
+    version: galactic    
   cartographer:
     type: git
     url: https://github.com/ros2/cartographer.git
