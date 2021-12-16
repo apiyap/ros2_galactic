@@ -22,7 +22,7 @@ vcs import src < addons_ros2.repos
 rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-5.3.1 urdfdom_headers"
 
 export MAKEFLAGS=-j4
-colcon build --symlink-install --parallel-workers 4
+colcon build --symlink-install --parallel-workers 4 --packages-skip-build-finished
 
 </pre>
 Summary: 391 packages finished [27min 31s]
