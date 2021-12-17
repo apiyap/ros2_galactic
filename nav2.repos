@@ -1,0 +1,19 @@
+repositories:
+  robot_localization:
+    type: git
+    url: https://github.com/apiyap/robot_localization.git
+    version: fix/galactic/load_parameters
+  ros/diagnostics:
+    type: git
+    url: https://github.com/ros/diagnostics.git
+    version: galactic
+  ros-geographic-info/geographic_info:
+    type: git
+    url: https://github.com/ros-geographic-info/geographic_info.git
+    version: ros2
+  ros/xacro:
+    type: git
+    url: https://github.com/ros/xacro.git
+    version: ros2
+    
+  
