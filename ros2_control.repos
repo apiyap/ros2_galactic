@@ -1,0 +1,21 @@
+repositories:
+  ros-control/ros2_control:
+    type: git
+    url: https://github.com/apiyap/ros2_control.git
+    version: galactic
+  ros-control/control_msgs:
+    type: git
+    url: https://github.com/apiyap/control_msgs.git
+    version: galactic-devel
+  ros-control/ros2_controllers:
+    type: git
+    url: https://github.com/apiyap/ros2_controllers.git
+    version: master
+  ros-control/realtime_tools:
+    type: git
+    url: https://github.com/apiyap/realtime_tools.git
+    version: foxy-devel
+  ros-control/control_toolbox:
+    type: git
+    url: https://github.com/apiyap/control_toolbox.git
+    version: ros2-master
