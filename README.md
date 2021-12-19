@@ -7,7 +7,7 @@ vcs import src < ros2.repos
 cd ~/ros2_galactic/
 rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-5.3.1 urdfdom_headers"
 export MAKEFLAGS=-j4
-colcon build --symlink-install --parallel-workers 4
+colcon build --symlink-install --parallel-workers 4 --cmake-args -DCMAKE_BUILD_TYPE=Release 
 </pre>
 
 Summary: 331 packages finished [37min 12s]
@@ -22,11 +22,11 @@ vcs import src < addons_ros2.repos
 rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-5.3.1 urdfdom_headers"
 
 export MAKEFLAGS=-j4
-colcon build --symlink-install --parallel-workers 4 --packages-select FOONATHAN_MEMORY behaviortree_cpp_v3
+colcon build --symlink-install --parallel-workers 4 --packages-select FOONATHAN_MEMORY behaviortree_cpp_v3 --cmake-args -DCMAKE_BUILD_TYPE=Release
 . ~/ros2_galactic/install/local_setup.bash
-colcon build --symlink-install --parallel-workers 4 --packages-skip-build-finished
+colcon build --symlink-install --parallel-workers 4 --packages-skip-build-finished --cmake-args -DCMAKE_BUILD_TYPE=Release
 
-colcon build --event-handlers desktop_notification- status- --packages-skip-build-finished --cmake-args -DCMAKE_BUILD_TYPE=Release
+colcon build --symlink-install --parallel-workers 4 --event-handlers desktop_notification- status- --packages-skip-build-finished --cmake-args -DCMAKE_BUILD_TYPE=Release 
 
 </pre>
 Summary: 391 packages finished [27min 31s]
