@@ -1,0 +1,30 @@
+repositories:
+  ros-planning/moveit2:
+    type: git
+    url: https://github.com/ros-planning/moveit2.git
+    version: main
+  ros-planning/geometric_shapes:
+    type: git
+    url: https://github.com/ros-planning/geometric_shapes
+    version: foxy
+  ros-planning/moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs
+    version: ros2
+  # TODO(#885): Re-enable when circular dependency is fixed
+  # ros-planning/moveit_resources:
+  #   type: git
+  #   url: https://github.com/ros-planning/moveit_resources
+  #   version: ros2
+  ros-planning/warehouse_ros:
+    type: git
+    url: https://github.com/ros-planning/warehouse_ros
+    version: ros2
+  ros-planning/warehouse_ros_mongo:
+    type: git
+    url: https://github.com/ros-planning/warehouse_ros_mongo
+    version: ros2
+  wg-perception/object_recognition_msgs:
+    type: git
+    url: https://github.com/wg-perception/object_recognition_msgs.git
+    version: ros2
